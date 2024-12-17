@@ -18,7 +18,7 @@ public class Direccion {
 
     public Direccion(DatosDireccion direccion) {
         this.calle = direccion.calle();
-        this.numero = String.valueOf(direccion.numero());
+        this.numero = direccion.numero();
         this.complemento = direccion.complemento();
         this.distrito = direccion.distrito();
         this.ciudad = direccion.ciudad();
